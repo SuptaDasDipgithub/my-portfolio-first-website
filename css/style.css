@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  font-family: "Crimson Text", serif;
+}
+
+/* header and nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+span {
+  color: #3498db;
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  padding: 19px 35px;
+  border-radius: 6px;
+  border: 0;
+  background-color: #3498db;
+}
+/* banner styles */
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  font-weight: 650;
+  font-size: 85px;
+}
+.sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.description {
+  color: #979a9a;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
