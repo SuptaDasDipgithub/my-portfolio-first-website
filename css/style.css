@@ -2,6 +2,12 @@
   margin: 0;
   font-family: "Crimson Text", serif;
 }
+.overall {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
 
 /* header and nav style */
 nav {
@@ -54,4 +60,37 @@ span {
   color: #979a9a;
   font-size: 18px;
   margin-bottom: 30px;
+}
+/* About Section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 15px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 30px;
+}
+.section-description {
+  color: #979a9a;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about .info {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 650;
+  font-size: 19px;
+  color: #474747;
 }
